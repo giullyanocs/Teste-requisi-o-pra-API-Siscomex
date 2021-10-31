@@ -6,7 +6,7 @@
 import requests
 import json
 
-res = requests.get('https://portalunico.siscomex.gov.br/edocex/api/ext/tipos-documentos-operacao/DI/ext/documentos-dossie/201900012345678')
+res = requests.get('https://portalunico.siscomex.gov.br/edocex/api/ext/tipos-documentos-operacao/DI')
 print(res)
-#json = res.json()
-#print(json)
+json = res.json()
+print(json)
