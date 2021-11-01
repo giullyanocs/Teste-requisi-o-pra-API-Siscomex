@@ -4,7 +4,6 @@
 # documentos da operação
 
 import requests
-import json
 
 res = requests.get('https://val.portalunico.siscomex.gov.br/catp/api/ext/produto/ext/fabricante/exportar/02069421503')
 print(res)
