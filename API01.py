@@ -6,7 +6,10 @@
 import requests
 import json
 
-res = requests.get('https://portalunico.siscomex.gov.br/edocex/api/ext/tipos-documentos-operacao/DI')
+res = requests.get('https://val.portalunico.siscomex.gov.br/catp/api/ext/produto/ext/fabricante/exportar/02069421503')
 print(res)
-json = res.json()
-print(json)
+#res = res.json()
+#print(res)
+#rest = res['']['']
+#print(rest)
+
